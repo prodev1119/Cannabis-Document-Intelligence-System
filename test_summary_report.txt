@@ -1,0 +1,12 @@
+
+Cannabis Document Classification Summary
+=======================================
+Total Documents Processed: 15
+High Priority: 1
+Medium Priority: 5
+Low Priority: 4
+Irrelevant: 5
+Average Score: 28.4
+
+High Priority Documents:
+- cannabis_retail_ordinance_approved.txt (Score: 108) - Found key phrases: cannabis retail, dispensary license, licensing program; Keywords in headings (+8 points)

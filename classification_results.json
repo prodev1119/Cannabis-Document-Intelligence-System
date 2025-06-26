@@ -1,0 +1,221 @@
+[
+  {
+    "document_name": "cannabis_retail_ordinance_approved.txt",
+    "classification": "HIGH_PRIORITY",
+    "score": 108,
+    "reasoning": "Found key phrases: cannabis retail, dispensary license, licensing program; Keywords in headings (+8 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "dispensary license",
+      "licensing program",
+      "application period",
+      "merit-based selection",
+      "conditional use permit approved",
+      "second reading",
+      "public hearing",
+      "planning commission",
+      "social equity",
+      "cannabis",
+      "dispensary",
+      "retail"
+    ],
+    "recommended_action": "immediate_follow_up",
+    "processed_at": "2025-06-25T22:01:25.142026"
+  },
+  {
+    "document_name": "planning_commission_hearing.txt",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 54,
+    "reasoning": "Found key phrases: cannabis retail, public hearing, planning commission; Keywords in headings (+8 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "public hearing",
+      "planning commission",
+      "draft ordinance",
+      "zoning amendment",
+      "cannabis business",
+      "study session",
+      "cannabis",
+      "retail",
+      "tax revenue"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-25T22:01:25.142145"
+  },
+  {
+    "document_name": "city_budget_discussion.txt",
+    "classification": "LOW_PRIORITY",
+    "score": 15,
+    "reasoning": "Found key phrases: cannabis business, cannabis, dispensary",
+    "key_phrases": [
+      "cannabis business",
+      "cannabis",
+      "dispensary",
+      "tax revenue",
+      "budget discussion",
+      "general mention"
+    ],
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-25T22:01:25.142253"
+  },
+  {
+    "document_name": "moratorium_lifted.txt",
+    "classification": "LOW_PRIORITY",
+    "score": 21,
+    "reasoning": "Found key phrases: moratorium lifted, cannabis business, cannabis; Keywords in headings (+6 points)",
+    "key_phrases": [
+      "moratorium lifted",
+      "cannabis business",
+      "cannabis"
+    ],
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-25T22:01:25.142352"
+  },
+  {
+    "document_name": "dispensary_license_application.txt",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 50,
+    "reasoning": "Found key phrases: dispensary license, application window, application period; Keywords in headings (+6 points)",
+    "key_phrases": [
+      "dispensary license",
+      "application window",
+      "application period",
+      "merit-based selection",
+      "cannabis",
+      "dispensary"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-25T22:01:25.142459"
+  },
+  {
+    "document_name": "zoning_amendment_approved.txt",
+    "classification": "LOW_PRIORITY",
+    "score": 25,
+    "reasoning": "Found key phrases: public hearing, zoning amendment, cannabis; Keywords in headings (+4 points)",
+    "key_phrases": [
+      "public hearing",
+      "zoning amendment",
+      "cannabis"
+    ],
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-25T22:01:25.142564"
+  },
+  {
+    "document_name": "cannabis_tax_ordinance.txt",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 38,
+    "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis; Keywords in headings (+6 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "cannabis business",
+      "cannabis",
+      "retail",
+      "tax revenue",
+      "budget discussion"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-25T22:01:25.142674"
+  },
+  {
+    "document_name": "social_equity_program.txt",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 31,
+    "reasoning": "Found key phrases: application period, social equity, cannabis business; Keywords in headings (+4 points)",
+    "key_phrases": [
+      "application period",
+      "social equity",
+      "cannabis business",
+      "study session",
+      "cannabis"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-25T22:01:25.142771"
+  },
+  {
+    "document_name": "cannabis_retail_denied.txt",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 30,
+    "reasoning": "Found key phrases: cannabis retail, public hearing, planning commission; Keywords in headings (+6 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "public hearing",
+      "planning commission",
+      "cannabis",
+      "retail"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-25T22:01:25.142857"
+  },
+  {
+    "document_name": "cannabis_ordinance_study.txt",
+    "classification": "LOW_PRIORITY",
+    "score": 20,
+    "reasoning": "Found key phrases: cannabis business, study session, cannabis; Keywords in headings (+6 points)",
+    "key_phrases": [
+      "cannabis business",
+      "study session",
+      "cannabis",
+      "general mention"
+    ],
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-25T22:01:25.142943"
+  },
+  {
+    "document_name": "park_maintenance.txt",
+    "classification": "IRRELEVANT",
+    "score": 2,
+    "reasoning": "Found key phrases: cannabis",
+    "key_phrases": [
+      "cannabis"
+    ],
+    "recommended_action": "ignore",
+    "processed_at": "2025-06-25T22:01:25.143032"
+  },
+  {
+    "document_name": "traffic_signal_repair.txt",
+    "classification": "IRRELEVANT",
+    "score": 9,
+    "reasoning": "Found key phrases: cannabis business, cannabis; Keywords in headings (+2 points)",
+    "key_phrases": [
+      "cannabis business",
+      "cannabis"
+    ],
+    "recommended_action": "ignore",
+    "processed_at": "2025-06-25T22:01:25.143122"
+  },
+  {
+    "document_name": "library_hours.txt",
+    "classification": "IRRELEVANT",
+    "score": 9,
+    "reasoning": "Found key phrases: cannabis business, cannabis; Keywords in headings (+2 points)",
+    "key_phrases": [
+      "cannabis business",
+      "cannabis"
+    ],
+    "recommended_action": "ignore",
+    "processed_at": "2025-06-25T22:01:25.143213"
+  },
+  {
+    "document_name": "water_main_repair.txt",
+    "classification": "IRRELEVANT",
+    "score": 9,
+    "reasoning": "Found key phrases: cannabis business, cannabis; Keywords in headings (+2 points)",
+    "key_phrases": [
+      "cannabis business",
+      "cannabis"
+    ],
+    "recommended_action": "ignore",
+    "processed_at": "2025-06-25T22:01:25.143299"
+  },
+  {
+    "document_name": "garbage_collection.txt",
+    "classification": "IRRELEVANT",
+    "score": 5,
+    "reasoning": "Found key phrases: cannabis",
+    "key_phrases": [
+      "cannabis"
+    ],
+    "recommended_action": "ignore",
+    "processed_at": "2025-06-25T22:01:25.143389"
+  }
+]

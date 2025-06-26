@@ -1,0 +1,80 @@
+
+Cannabis Document Classification Methodology
+===========================================
+
+Scoring System Overview:
+The system uses a weighted keyword-based approach with context modifiers to score
+documents for cannabis business relevance. The methodology is designed to identify
+documents that represent immediate business opportunities or require monitoring.
+
+Keyword Categories:
+
+1. HIGH VALUE KEYWORDS (10 points each):
+   - "cannabis retail", "dispensary license", "application window"
+   - "ordinance approved", "licensing program", "application period"
+   - "merit-based selection", "conditional use permit approved", "second reading"
+   
+   Rationale: These phrases indicate immediate business opportunities, active
+   licensing processes, or approved regulatory changes that create new markets.
+
+2. MEDIUM VALUE KEYWORDS (5 points each):
+   - "public hearing", "planning commission", "draft ordinance"
+   - "zoning amendment", "social equity", "moratorium lifted"
+   - "cannabis business", "study session"
+   
+   Rationale: These indicate regulatory processes in progress, potential future
+   opportunities, or policy discussions that require monitoring.
+
+3. LOW VALUE KEYWORDS (2 points each):
+   - "cannabis", "marijuana", "dispensary", "retail"
+   - "tax revenue", "budget discussion", "general mention"
+   
+   Rationale: These are general mentions that may indicate background relevance
+   but don't represent immediate opportunities.
+
+Context Modifiers:
+
+1. POSITIVE MODIFIERS (+3 points each):
+   - "approved", "passed", "effective", "final"
+   
+   Rationale: These words indicate completed actions that create immediate
+   business opportunities.
+
+2. NEGATIVE MODIFIERS (-3 points each):
+   - "prohibited", "banned", "rejected"
+   
+   Rationale: These words indicate restrictions that limit business opportunities.
+
+3. DATE BONUS (+5 points for dates within 90 days):
+   Rationale: Recent dates indicate current or upcoming opportunities that
+   require immediate attention.
+
+4. TITLE/HEADING BONUS (+2 points):
+   Rationale: Keywords in titles or headings indicate the document's primary
+   focus on cannabis-related matters.
+
+Classification Thresholds:
+
+- 70+ points: HIGH PRIORITY (immediate action needed)
+- 30-69 points: MEDIUM PRIORITY (monitor and plan)
+- 10-29 points: LOW PRIORITY (background awareness)
+- Under 10 points: IRRELEVANT (ignore)
+
+Automation Workflows:
+
+1. HIGH PRIORITY: Immediate Slack alerts with detailed information
+2. MEDIUM PRIORITY: Weekly digest emails for planning purposes
+3. LOW PRIORITY: JSON logging for future reference
+4. IRRELEVANT: No action taken
+
+Business Logic Adjustments Made:
+
+1. Enhanced date detection to handle multiple date formats
+2. Added title/heading analysis for better context understanding
+3. Implemented comprehensive keyword matching with case-insensitive search
+4. Created detailed reasoning generation for transparency
+5. Built robust automation workflows that match business needs
+
+This methodology balances sensitivity (catching relevant documents) with specificity
+(avoiding false positives) to provide actionable intelligence for cannabis business
+opportunities.
