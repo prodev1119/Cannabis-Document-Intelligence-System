@@ -1,12 +1,12 @@
 
 Cannabis Document Classification Summary
 =======================================
-Total Documents Processed: 15
+Total Documents Processed: 32
 High Priority: 1
-Medium Priority: 5
-Low Priority: 4
-Irrelevant: 5
-Average Score: 28.4
+Medium Priority: 19
+Low Priority: 10
+Irrelevant: 2
+Average Score: 36.1
 
 High Priority Documents:
-- cannabis_retail_ordinance_approved.txt (Score: 108) - Found key phrases: cannabis retail, dispensary license, licensing program; Keywords in headings (+8 points)
+- Santa_Monica_Draft_Zoning_Ordinance.pdf (Score: 84) - Found key phrases: cannabis retail, public hearing, planning commission; Recent dates detected (+25 points); Keywords in headings (+8 points)

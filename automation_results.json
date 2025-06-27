@@ -1,6 +1,6 @@
 {
-  "timestamp": "2025-06-25T22:01:25.158810",
-  "total_documents": 15,
+  "timestamp": "2025-06-26T21:08:44.533207",
+  "total_documents": 32,
   "workflows_executed": {
     "high_priority_alerts": [
       {
@@ -14,22 +14,22 @@
               "fields": [
                 {
                   "title": "Document",
-                  "value": "cannabis_retail_ordinance_approved.txt",
+                  "value": "Santa_Monica_Draft_Zoning_Ordinance.pdf",
                   "short": true
                 },
                 {
                   "title": "Score",
-                  "value": "108",
+                  "value": "84",
                   "short": true
                 },
                 {
                   "title": "Reasoning",
-                  "value": "Found key phrases: cannabis retail, dispensary license, licensing program; Keywords in headings (+8 points)",
+                  "value": "Found key phrases: cannabis retail, public hearing, planning commission; Recent dates detected (+25 points); Keywords in headings (+8 points)",
                   "short": false
                 },
                 {
                   "title": "Key Phrases",
-                  "value": "cannabis retail, dispensary license, licensing program, application period, merit-based selection",
+                  "value": "cannabis retail, public hearing, planning commission, social equity, cannabis business",
                   "short": false
                 },
                 {
@@ -38,29 +38,29 @@
                   "short": false
                 }
               ],
-              "footer": "Processed at 2025-06-25 22:01:25"
+              "footer": "Processed at 2025-06-26 21:08:44"
             }
           ]
         },
-        "timestamp": "2025-06-25T22:01:25.162113"
+        "timestamp": "2025-06-26T21:08:44.537207"
       }
     ],
     "weekly_digest": {
       "status": "success",
       "platform": "email",
-      "subject": "Weekly Cannabis Document Digest - 2025-06-25",
+      "subject": "Weekly Cannabis Document Digest - 2025-06-26",
       "recipients": [
         "stakeholders@yourcompany.com"
       ],
-      "document_count": 5,
-      "timestamp": "2025-06-25T22:01:25.162714"
+      "document_count": 19,
+      "timestamp": "2025-06-26T21:08:44.537207"
     },
     "low_priority_logging": {
       "status": "success",
       "action": "logged",
       "log_file": "automation_log.json",
-      "document_count": 4,
-      "timestamp": "2025-06-25T22:01:25.164810"
+      "document_count": 10,
+      "timestamp": "2025-06-26T21:08:44.540208"
     }
   }
 }

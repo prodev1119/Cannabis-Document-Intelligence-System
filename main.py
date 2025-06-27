@@ -22,7 +22,7 @@ from typing import Dict, List
 
 from cannabis_classifier import CannabisDocumentClassifier, PriorityLevel
 from automation_workflows import AutomationWorkflows
-from sample_documents import get_sample_documents, save_sample_documents_to_files
+from sample_documents import extract_all_documents
 
 
 class CannabisDocumentIntelligenceSystem:
@@ -43,11 +43,12 @@ class CannabisDocumentIntelligenceSystem:
         print("🌿 Cannabis Document Intelligence System")
         print("=" * 50)
         
-        # Use sample documents if none provided
-        if documents is None:
-            print("Using sample municipal documents for analysis...")
-            documents = get_sample_documents()
-            save_sample_documents_to_files()
+        # Only process real documents from the docs folder
+        print("Extracting and processing all supported documents in 'docs' folder...")
+        documents = extract_all_documents("docs")
+        if not documents:
+            print("No supported documents found in 'docs' folder. Exiting.")
+            return {}
         
         print(f"Processing {len(documents)} documents...")
         
@@ -60,7 +61,7 @@ class CannabisDocumentIntelligenceSystem:
         for result in classification_results:
             emoji = {
                 PriorityLevel.HIGH_PRIORITY: "🔴",
-                PriorityLevel.MEDIUM_PRIORITY: "🟡", 
+                PriorityLevel.MEDIUM_PRIORITY: "🟡",
                 PriorityLevel.LOW_PRIORITY: "🟢",
                 PriorityLevel.IRRELEVANT: "⚪"
             }[result.classification]

@@ -1,18 +1,18 @@
 
 Automation Workflow Report
 =========================
-Generated: 2025-06-25 22:01:25
+Generated: 2025-06-26 21:08:44
 
 Document Distribution:
 - High Priority (Immediate Alerts): 1
-- Medium Priority (Weekly Digest): 5
-- Low Priority (Logged): 4
-- Irrelevant (Ignored): 5
+- Medium Priority (Weekly Digest): 19
+- Low Priority (Logged): 10
+- Irrelevant (Ignored): 2
 
 Workflows Executed:
 * 1 Slack alerts sent for immediate follow-up
-* Weekly digest email prepared with 5 documents
-* 4 documents logged to automation_log.json
+* Weekly digest email prepared with 19 documents
+* 10 documents logged to automation_log.json
 
 Files Generated:
 - classification_results.json: Detailed classification data

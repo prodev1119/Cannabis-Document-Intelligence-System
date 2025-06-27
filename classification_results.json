@@ -1,167 +1,432 @@
 [
   {
-    "document_name": "cannabis_retail_ordinance_approved.txt",
-    "classification": "HIGH_PRIORITY",
-    "score": 108,
-    "reasoning": "Found key phrases: cannabis retail, dispensary license, licensing program; Keywords in headings (+8 points)",
+    "document_name": "Baldwin_Park_Cannabis_ORD_1501.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 42,
+    "reasoning": "Found key phrases: cannabis retail, public hearing, social equity",
     "key_phrases": [
       "cannabis retail",
-      "dispensary license",
+      "public hearing",
+      "social equity",
+      "cannabis business",
+      "cannabis",
+      "marijuana",
+      "dispensary",
+      "retail"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.330566"
+  },
+  {
+    "document_name": "Baldwin_Park_Commercial_Cannabis_Retail.APP.Final.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 41,
+    "reasoning": "Found key phrases: cannabis retail, social equity, cannabis business; Keywords in headings (+8 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "social equity",
+      "cannabis business",
+      "cannabis",
+      "retail"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.333565"
+  },
+  {
+    "document_name": "Citrus_Heights_4_11_staff_report.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 58,
+    "reasoning": "Found key phrases: cannabis retail, application window, second reading",
+    "key_phrases": [
+      "cannabis retail",
+      "application window",
+      "second reading",
+      "planning commission",
+      "cannabis business",
+      "study session",
+      "cannabis",
+      "marijuana",
+      "dispensary",
+      "retail",
+      "tax revenue"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.338563"
+  },
+  {
+    "document_name": "Citrus_Heights_Staff_Report_.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 61,
+    "reasoning": "Found key phrases: cannabis retail, application window, second reading",
+    "key_phrases": [
+      "cannabis retail",
+      "application window",
+      "second reading",
+      "planning commission",
+      "cannabis business",
+      "study session",
+      "cannabis",
+      "marijuana",
+      "dispensary",
+      "retail",
+      "tax revenue"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.341567"
+  },
+  {
+    "document_name": "Claremont_CA_Consideration_of_an_Amendment_to_the_Claremont_Zoning_Code_to_Allow_Cannabis_Storefront_Retail_Business_as_a_Conditionally_Permitted_Use.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 68,
+    "reasoning": "Found key phrases: cannabis retail, licensing program, second reading; Recent dates detected (+5 points); Keywords in headings (+4 points)",
+    "key_phrases": [
+      "cannabis retail",
       "licensing program",
-      "application period",
-      "merit-based selection",
-      "conditional use permit approved",
       "second reading",
       "public hearing",
       "planning commission",
-      "social equity",
+      "cannabis business",
+      "cannabis",
+      "marijuana",
+      "retail",
+      "tax revenue"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.353599"
+  },
+  {
+    "document_name": "Claremont_Draft_Cannabis_Tax_Ordinance.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 32,
+    "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis; Keywords in headings (+2 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "cannabis business",
       "cannabis",
       "dispensary",
       "retail"
     ],
-    "recommended_action": "immediate_follow_up",
-    "processed_at": "2025-06-25T22:01:25.142026"
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.361598"
   },
   {
-    "document_name": "planning_commission_hearing.txt",
+    "document_name": "Cudahy_memo_re_lack_of_viable_parcels_in_remaining_zone.pdf",
     "classification": "MEDIUM_PRIORITY",
-    "score": 54,
-    "reasoning": "Found key phrases: cannabis retail, public hearing, planning commission; Keywords in headings (+8 points)",
+    "score": 36,
+    "reasoning": "Found key phrases: cannabis retail, application period, cannabis business; Keywords in headings (+4 points)",
     "key_phrases": [
       "cannabis retail",
+      "application period",
+      "cannabis business",
+      "cannabis",
+      "retail"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.362601"
+  },
+  {
+    "document_name": "Ordinance_No._730_Cannabis_Business_Accountability_Measure_FINAL.pdf",
+    "classification": "LOW_PRIORITY",
+    "score": 19,
+    "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis",
+    "key_phrases": [
+      "cannabis retail",
+      "cannabis business",
+      "cannabis",
+      "retail"
+    ],
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-26T21:08:44.387596"
+  },
+  {
+    "document_name": "04-19-2022_City_Council_Agenda.pdf",
+    "classification": "LOW_PRIORITY",
+    "score": 20,
+    "reasoning": "Found key phrases: second reading, public hearing, cannabis",
+    "key_phrases": [
+      "second reading",
+      "public hearing",
+      "cannabis"
+    ],
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-26T21:08:44.389592"
+  },
+  {
+    "document_name": "05-03-2022_Agenda_Packet.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 57,
+    "reasoning": "Found key phrases: cannabis retail, application window, second reading",
+    "key_phrases": [
+      "cannabis retail",
+      "application window",
+      "second reading",
       "public hearing",
       "planning commission",
-      "draft ordinance",
-      "zoning amendment",
       "cannabis business",
-      "study session",
       "cannabis",
       "retail",
       "tax revenue"
     ],
     "recommended_action": "weekly_digest",
-    "processed_at": "2025-06-25T22:01:25.142145"
+    "processed_at": "2025-06-26T21:08:44.417597"
   },
   {
-    "document_name": "city_budget_discussion.txt",
-    "classification": "LOW_PRIORITY",
-    "score": 15,
-    "reasoning": "Found key phrases: cannabis business, cannabis, dispensary",
-    "key_phrases": [
-      "cannabis business",
-      "cannabis",
-      "dispensary",
-      "tax revenue",
-      "budget discussion",
-      "general mention"
-    ],
-    "recommended_action": "log_only",
-    "processed_at": "2025-06-25T22:01:25.142253"
+    "document_name": "El_Segundo_Cannabis_Regulation_and_Public_Safety_Measure_(withdraw_and_filed_7-20-2021)_(3)_(00389039xB613E).pdf",
+    "classification": "IRRELEVANT",
+    "score": 0,
+    "reasoning": "Limited cannabis relevance",
+    "key_phrases": [],
+    "recommended_action": "ignore",
+    "processed_at": "2025-06-26T21:08:44.417597"
   },
   {
-    "document_name": "moratorium_lifted.txt",
-    "classification": "LOW_PRIORITY",
-    "score": 21,
-    "reasoning": "Found key phrases: moratorium lifted, cannabis business, cannabis; Keywords in headings (+6 points)",
-    "key_phrases": [
-      "moratorium lifted",
-      "cannabis business",
-      "cannabis"
-    ],
-    "recommended_action": "log_only",
-    "processed_at": "2025-06-25T22:01:25.142352"
-  },
-  {
-    "document_name": "dispensary_license_application.txt",
-    "classification": "MEDIUM_PRIORITY",
-    "score": 50,
-    "reasoning": "Found key phrases: dispensary license, application window, application period; Keywords in headings (+6 points)",
-    "key_phrases": [
-      "dispensary license",
-      "application window",
-      "application period",
-      "merit-based selection",
-      "cannabis",
-      "dispensary"
-    ],
-    "recommended_action": "weekly_digest",
-    "processed_at": "2025-06-25T22:01:25.142459"
-  },
-  {
-    "document_name": "zoning_amendment_approved.txt",
+    "document_name": "05-24-2022_City_Council_Agenda.pdf",
     "classification": "LOW_PRIORITY",
     "score": 25,
-    "reasoning": "Found key phrases: public hearing, zoning amendment, cannabis; Keywords in headings (+4 points)",
+    "reasoning": "Found key phrases: public hearing, planning commission, study session",
     "key_phrases": [
       "public hearing",
-      "zoning amendment",
-      "cannabis"
+      "planning commission",
+      "study session",
+      "cannabis",
+      "retail"
     ],
     "recommended_action": "log_only",
-    "processed_at": "2025-06-25T22:01:25.142564"
+    "processed_at": "2025-06-26T21:08:44.421595"
   },
   {
-    "document_name": "cannabis_tax_ordinance.txt",
-    "classification": "MEDIUM_PRIORITY",
-    "score": 38,
+    "document_name": "Cannabis_Advisoty_Group_Workplan_-_04-12-2022.pdf",
+    "classification": "LOW_PRIORITY",
+    "score": 25,
     "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis; Keywords in headings (+6 points)",
     "key_phrases": [
       "cannabis retail",
       "cannabis business",
       "cannabis",
-      "retail",
-      "tax revenue",
-      "budget discussion"
+      "retail"
     ],
-    "recommended_action": "weekly_digest",
-    "processed_at": "2025-06-25T22:01:25.142674"
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-26T21:08:44.421595"
   },
   {
-    "document_name": "social_equity_program.txt",
-    "classification": "MEDIUM_PRIORITY",
-    "score": 31,
-    "reasoning": "Found key phrases: application period, social equity, cannabis business; Keywords in headings (+4 points)",
+    "document_name": "Att_3_Cannabis_Land_Use_Policy_Presentation.pdf",
+    "classification": "LOW_PRIORITY",
+    "score": 21,
+    "reasoning": "Found key phrases: planning commission, cannabis business, study session; Keywords in headings (+2 points)",
     "key_phrases": [
-      "application period",
-      "social equity",
+      "planning commission",
       "cannabis business",
       "study session",
-      "cannabis"
+      "cannabis",
+      "retail"
     ],
-    "recommended_action": "weekly_digest",
-    "processed_at": "2025-06-25T22:01:25.142771"
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-26T21:08:44.422596"
   },
   {
-    "document_name": "cannabis_retail_denied.txt",
+    "document_name": "Cannabis-Regulatory-Ordinance-DRAFT.pdf",
     "classification": "MEDIUM_PRIORITY",
-    "score": 30,
-    "reasoning": "Found key phrases: cannabis retail, public hearing, planning commission; Keywords in headings (+6 points)",
+    "score": 44,
+    "reasoning": "Found key phrases: cannabis retail, application period, cannabis business; Keywords in headings (+2 points)",
     "key_phrases": [
       "cannabis retail",
-      "public hearing",
-      "planning commission",
+      "application period",
+      "cannabis business",
+      "cannabis",
+      "marijuana",
+      "dispensary",
+      "retail"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.428566"
+  },
+  {
+    "document_name": "Huntington_Beach_Study_Session_PPT.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 32,
+    "reasoning": "Found key phrases: cannabis retail, cannabis business, study session; Keywords in headings (+2 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "cannabis business",
+      "study session",
       "cannabis",
       "retail"
     ],
     "recommended_action": "weekly_digest",
-    "processed_at": "2025-06-25T22:01:25.142857"
+    "processed_at": "2025-06-26T21:08:44.429596"
   },
   {
-    "document_name": "cannabis_ordinance_study.txt",
-    "classification": "LOW_PRIORITY",
-    "score": 20,
-    "reasoning": "Found key phrases: cannabis business, study session, cannabis; Keywords in headings (+6 points)",
+    "document_name": "04MAY_Agenda_Report.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 42,
+    "reasoning": "Found key phrases: cannabis retail, public hearing, planning commission",
     "key_phrases": [
+      "cannabis retail",
+      "public hearing",
+      "planning commission",
+      "draft ordinance",
       "cannabis business",
       "study session",
       "cannabis",
-      "general mention"
+      "retail"
     ],
-    "recommended_action": "log_only",
-    "processed_at": "2025-06-25T22:01:25.142943"
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.432563"
   },
   {
-    "document_name": "park_maintenance.txt",
+    "document_name": "17AUG_Agenda_Report.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 61,
+    "reasoning": "Found key phrases: cannabis retail, licensing program, public hearing",
+    "key_phrases": [
+      "cannabis retail",
+      "licensing program",
+      "public hearing",
+      "planning commission",
+      "draft ordinance",
+      "cannabis business",
+      "study session",
+      "cannabis",
+      "marijuana",
+      "dispensary",
+      "retail",
+      "tax revenue"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.443564"
+  },
+  {
+    "document_name": "Novato_Staff_Report_Cannabis_Storefront_Retail_Discussion.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 47,
+    "reasoning": "Found key phrases: cannabis retail, zoning amendment, cannabis business; Recent dates detected (+15 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "zoning amendment",
+      "cannabis business",
+      "study session",
+      "cannabis",
+      "retail"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.444564"
+  },
+  {
+    "document_name": "Parsippany_2024-21_Cannabis_Ordinance_Process_and_Taxation_(1).docx",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 33,
+    "reasoning": "Found key phrases: cannabis retail, application period, cannabis business",
+    "key_phrases": [
+      "cannabis retail",
+      "application period",
+      "cannabis business",
+      "cannabis",
+      "marijuana",
+      "dispensary",
+      "retail"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.451598"
+  },
+  {
+    "document_name": "Chapter_6_Section_6.28_-6-14-2025_Update.pdf",
+    "classification": "LOW_PRIORITY",
+    "score": 16,
+    "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis",
+    "key_phrases": [
+      "cannabis retail",
+      "cannabis business",
+      "cannabis",
+      "retail"
+    ],
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-26T21:08:44.454597"
+  },
+  {
+    "document_name": "Local_Cannabis_Retail_Registration_Application_Review_Policy_5-28-2025_(1) (1).pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 47,
+    "reasoning": "Found key phrases: cannabis retail, application window, cannabis business; Recent dates detected (+5 points); Keywords in headings (+4 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "application window",
+      "cannabis business",
+      "cannabis",
+      "retail"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.455599"
+  },
+  {
+    "document_name": "Red_Wing_Ord._No._216_-_Amend_Chapt_6_2C_Adding_Sect_6.28_Cannabis.pdf",
+    "classification": "LOW_PRIORITY",
+    "score": 19,
+    "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis",
+    "key_phrases": [
+      "cannabis retail",
+      "cannabis business",
+      "cannabis",
+      "retail"
+    ],
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-26T21:08:44.459598"
+  },
+  {
+    "document_name": "Dec_19th_Administrative_Report_(11).pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 37,
+    "reasoning": "Found key phrases: cannabis retail, planning commission, cannabis business",
+    "key_phrases": [
+      "cannabis retail",
+      "planning commission",
+      "cannabis business",
+      "cannabis",
+      "marijuana",
+      "retail",
+      "tax revenue"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.462596"
+  },
+  {
+    "document_name": "Redondo_Administrative_Report_(17).pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 35,
+    "reasoning": "Found key phrases: cannabis retail, planning commission, cannabis business",
+    "key_phrases": [
+      "cannabis retail",
+      "planning commission",
+      "cannabis business",
+      "cannabis",
+      "retail",
+      "tax revenue"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.464597"
+  },
+  {
+    "document_name": "Santa_Monica_Draft_Zoning_Ordinance.pdf",
+    "classification": "HIGH_PRIORITY",
+    "score": 84,
+    "reasoning": "Found key phrases: cannabis retail, public hearing, planning commission; Recent dates detected (+25 points); Keywords in headings (+8 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "public hearing",
+      "planning commission",
+      "social equity",
+      "cannabis business",
+      "study session",
+      "cannabis",
+      "marijuana",
+      "dispensary",
+      "retail",
+      "tax revenue"
+    ],
+    "recommended_action": "immediate_follow_up",
+    "processed_at": "2025-06-26T21:08:44.482598"
+  },
+  {
+    "document_name": "Santa_Monica_Parcels_at_300_2C_600_and_900_buffers.pdf",
     "classification": "IRRELEVANT",
     "score": 2,
     "reasoning": "Found key phrases: cannabis",
@@ -169,53 +434,85 @@
       "cannabis"
     ],
     "recommended_action": "ignore",
-    "processed_at": "2025-06-25T22:01:25.143032"
+    "processed_at": "2025-06-26T21:08:44.482598"
   },
   {
-    "document_name": "traffic_signal_repair.txt",
-    "classification": "IRRELEVANT",
-    "score": 9,
-    "reasoning": "Found key phrases: cannabis business, cannabis; Keywords in headings (+2 points)",
+    "document_name": "Santa_Monica_staff_report.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 40,
+    "reasoning": "Found key phrases: cannabis retail, social equity, cannabis business; Keywords in headings (+4 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "social equity",
+      "cannabis business",
+      "study session",
+      "cannabis",
+      "dispensary",
+      "retail",
+      "tax revenue"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.486598"
+  },
+  {
+    "document_name": "St._Louis_Park_Cannabis_Ordinance.pdf",
+    "classification": "MEDIUM_PRIORITY",
+    "score": 48,
+    "reasoning": "Found key phrases: cannabis retail, second reading, public hearing; Keywords in headings (+2 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "second reading",
+      "public hearing",
+      "planning commission",
+      "cannabis business",
+      "cannabis",
+      "marijuana",
+      "dispensary",
+      "retail"
+    ],
+    "recommended_action": "weekly_digest",
+    "processed_at": "2025-06-26T21:08:44.490600"
+  },
+  {
+    "document_name": "St._Louis_Park_Local_Reg_Application_CannabisRetailerorLowerPotencyHempRetailerApplication_2025.pdf",
+    "classification": "LOW_PRIORITY",
+    "score": 25,
+    "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis; Keywords in headings (+6 points)",
+    "key_phrases": [
+      "cannabis retail",
+      "cannabis business",
+      "cannabis",
+      "retail"
+    ],
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-26T21:08:44.491566"
+  },
+  {
+    "document_name": "220-7065_Visalia_Cannabis_Survey_Analysis_-_(P)_presentation.pdf",
+    "classification": "LOW_PRIORITY",
+    "score": 12,
+    "reasoning": "Found key phrases: cannabis business, cannabis, retail",
     "key_phrases": [
       "cannabis business",
-      "cannabis"
+      "cannabis",
+      "retail"
     ],
-    "recommended_action": "ignore",
-    "processed_at": "2025-06-25T22:01:25.143122"
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-26T21:08:44.493596"
   },
   {
-    "document_name": "library_hours.txt",
-    "classification": "IRRELEVANT",
-    "score": 9,
-    "reasoning": "Found key phrases: cannabis business, cannabis; Keywords in headings (+2 points)",
+    "document_name": "Visalia_Tax_Ordinance_ballot_measure.pdf",
+    "classification": "LOW_PRIORITY",
+    "score": 27,
+    "reasoning": "Found key phrases: cannabis business, cannabis, marijuana; Keywords in headings (+2 points)",
     "key_phrases": [
       "cannabis business",
-      "cannabis"
+      "cannabis",
+      "marijuana",
+      "dispensary",
+      "retail"
     ],
-    "recommended_action": "ignore",
-    "processed_at": "2025-06-25T22:01:25.143213"
-  },
-  {
-    "document_name": "water_main_repair.txt",
-    "classification": "IRRELEVANT",
-    "score": 9,
-    "reasoning": "Found key phrases: cannabis business, cannabis; Keywords in headings (+2 points)",
-    "key_phrases": [
-      "cannabis business",
-      "cannabis"
-    ],
-    "recommended_action": "ignore",
-    "processed_at": "2025-06-25T22:01:25.143299"
-  },
-  {
-    "document_name": "garbage_collection.txt",
-    "classification": "IRRELEVANT",
-    "score": 5,
-    "reasoning": "Found key phrases: cannabis",
-    "key_phrases": [
-      "cannabis"
-    ],
-    "recommended_action": "ignore",
-    "processed_at": "2025-06-25T22:01:25.143389"
+    "recommended_action": "log_only",
+    "processed_at": "2025-06-26T21:08:44.499597"
   }
 ]
