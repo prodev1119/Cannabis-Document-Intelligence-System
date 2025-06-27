@@ -511,5 +511,133 @@
         "processed_at": "2025-06-26T21:08:44.499597"
       }
     ]
+  },
+  {
+    "timestamp": "2025-06-26T23:50:51.589883",
+    "action": "low_priority_log",
+    "document_count": 10,
+    "documents": [
+      {
+        "document_name": "Ordinance_No._730_Cannabis_Business_Accountability_Measure_FINAL.pdf",
+        "score": 19,
+        "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis",
+        "key_phrases": [
+          "cannabis retail",
+          "cannabis business",
+          "cannabis",
+          "retail"
+        ],
+        "processed_at": "2025-06-26T23:50:51.436911"
+      },
+      {
+        "document_name": "04-19-2022_City_Council_Agenda.pdf",
+        "score": 20,
+        "reasoning": "Found key phrases: second reading, public hearing, cannabis",
+        "key_phrases": [
+          "second reading",
+          "public hearing",
+          "cannabis"
+        ],
+        "processed_at": "2025-06-26T23:50:51.438913"
+      },
+      {
+        "document_name": "05-24-2022_City_Council_Agenda.pdf",
+        "score": 25,
+        "reasoning": "Found key phrases: public hearing, planning commission, study session",
+        "key_phrases": [
+          "public hearing",
+          "planning commission",
+          "study session",
+          "cannabis",
+          "retail"
+        ],
+        "processed_at": "2025-06-26T23:50:51.471880"
+      },
+      {
+        "document_name": "Cannabis_Advisoty_Group_Workplan_-_04-12-2022.pdf",
+        "score": 25,
+        "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis; Keywords in headings (+6 points)",
+        "key_phrases": [
+          "cannabis retail",
+          "cannabis business",
+          "cannabis",
+          "retail"
+        ],
+        "processed_at": "2025-06-26T23:50:51.471880"
+      },
+      {
+        "document_name": "Att_3_Cannabis_Land_Use_Policy_Presentation.pdf",
+        "score": 21,
+        "reasoning": "Found key phrases: planning commission, cannabis business, study session; Keywords in headings (+2 points)",
+        "key_phrases": [
+          "planning commission",
+          "cannabis business",
+          "study session",
+          "cannabis",
+          "retail"
+        ],
+        "processed_at": "2025-06-26T23:50:51.472881"
+      },
+      {
+        "document_name": "Chapter_6_Section_6.28_-6-14-2025_Update.pdf",
+        "score": 16,
+        "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis",
+        "key_phrases": [
+          "cannabis retail",
+          "cannabis business",
+          "cannabis",
+          "retail"
+        ],
+        "processed_at": "2025-06-26T23:50:51.504914"
+      },
+      {
+        "document_name": "Red_Wing_Ord._No._216_-_Amend_Chapt_6_2C_Adding_Sect_6.28_Cannabis.pdf",
+        "score": 19,
+        "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis",
+        "key_phrases": [
+          "cannabis retail",
+          "cannabis business",
+          "cannabis",
+          "retail"
+        ],
+        "processed_at": "2025-06-26T23:50:51.509880"
+      },
+      {
+        "document_name": "St._Louis_Park_Local_Reg_Application_CannabisRetailerorLowerPotencyHempRetailerApplication_2025.pdf",
+        "score": 25,
+        "reasoning": "Found key phrases: cannabis retail, cannabis business, cannabis; Keywords in headings (+6 points)",
+        "key_phrases": [
+          "cannabis retail",
+          "cannabis business",
+          "cannabis",
+          "retail"
+        ],
+        "processed_at": "2025-06-26T23:50:51.542913"
+      },
+      {
+        "document_name": "220-7065_Visalia_Cannabis_Survey_Analysis_-_(P)_presentation.pdf",
+        "score": 12,
+        "reasoning": "Found key phrases: cannabis business, cannabis, retail",
+        "key_phrases": [
+          "cannabis business",
+          "cannabis",
+          "retail"
+        ],
+        "processed_at": "2025-06-26T23:50:51.544914"
+      },
+      {
+        "document_name": "Visalia_Tax_Ordinance_ballot_measure.pdf",
+        "score": 27,
+        "reasoning": "Found key phrases: cannabis business, cannabis, marijuana; Keywords in headings (+2 points)",
+        "key_phrases": [
+          "cannabis business",
+          "cannabis",
+          "marijuana",
+          "dispensary",
+          "retail"
+        ],
+        "processed_at": "2025-06-26T23:50:51.550915"
+      }
+    ]
   }
 ]

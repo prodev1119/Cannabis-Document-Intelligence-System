@@ -45,7 +45,7 @@ python main.py
 ```
 
 This will:
-- Process 15 sample municipal documents
+- Process all real municipal documents in the `docs` folder
 - Classify each document for cannabis business relevance
 - Execute automation workflows
 - Generate comprehensive reports
@@ -65,10 +65,19 @@ Then visit:
 # Test the classifier directly
 python -c "
 from cannabis_classifier import CannabisDocumentClassifier
-from sample_documents import get_sample_documents
+import os
+
+def load_real_documents(folder_path='docs'):
+    documents = {}
+    for root, _, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith('.txt'):
+                with open(os.path.join(root, file), 'r', encoding='utf-8') as f:
+                    documents[file] = f.read()
+    return documents
 
 classifier = CannabisDocumentClassifier()
-documents = get_sample_documents()
+documents = load_real_documents()
 results = classifier.process_documents(documents)
 
 for result in results:
@@ -78,16 +87,16 @@ for result in results:
 
 ## 📊 Sample Results
 
-The system processes 15 realistic municipal documents and typically produces:
+The system processes all municipal documents in the `docs` folder and typically produces:
 
-- **High Priority**: 3-5 documents (immediate action needed)
-- **Medium Priority**: 4-6 documents (monitor and plan)
-- **Low Priority**: 3-4 documents (background awareness)
-- **Irrelevant**: 2-3 documents (no action needed)
+- **High Priority**: Documents requiring immediate action
+- **Medium Priority**: Documents to monitor and plan
+- **Low Priority**: Background awareness
+- **Irrelevant**: No action needed
 
 ### Example High Priority Document
 ```
-🔴 cannabis_retail_ordinance_approved.txt
+🔴 city_cannabis_ordinance.txt
    Score: 85 | Classification: HIGH_PRIORITY
    Reasoning: Found key phrases: cannabis retail, ordinance approved, application window; Recent dates detected (+5 points); Keywords in headings (+2 points)
    Key Phrases: cannabis retail, ordinance approved, application window
@@ -109,17 +118,12 @@ The system processes 15 realistic municipal documents and typically produces:
    - JSON logging system
    - Workflow orchestration
 
-3. **`sample_documents.py`**
-   - 15 realistic municipal documents
-   - Various cannabis-related scenarios
-   - Different priority levels represented
-
-4. **`main.py`**
+3. **`main.py`**
    - Complete system orchestration
    - Report generation
    - File export functionality
 
-5. **`api.py`**
+4. **`api.py`**
    - FastAPI web interface
    - REST API endpoints
    - Interactive documentation
@@ -129,12 +133,11 @@ The system processes 15 realistic municipal documents and typically produces:
 cannabis-document-intelligence/
 ├── cannabis_classifier.py      # Core classification engine
 ├── automation_workflows.py     # Automation workflows
-├── sample_documents.py         # Sample municipal documents
 ├── main.py                     # Main application
 ├── api.py                      # FastAPI web interface
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # This file
-└── sample_documents/           # Generated sample files
+└── docs/                       # Real municipal documents
 ```
 
 ## 🔧 API Endpoints
@@ -149,7 +152,6 @@ cannabis-document-intelligence/
 - `POST /upload-file` - Upload and classify a text file
 
 ### Information
-- `GET /sample-documents` - Get sample documents for testing
 - `GET /methodology` - Get detailed methodology explanation
 
 ### Automation
@@ -198,25 +200,8 @@ After running the system, the following files are generated:
 
 ## 🧪 Testing
 
-### Sample Documents Included
-1. **High Priority Examples:**
-   - Cannabis retail ordinance approved
-   - Dispensary license application window
-   - Zoning amendment approved
-
-2. **Medium Priority Examples:**
-   - Planning commission hearing
-   - Draft ordinance discussion
-   - Social equity program
-
-3. **Low Priority Examples:**
-   - Budget discussion with cannabis tax revenue
-   - General cannabis business mention
-
-4. **Irrelevant Examples:**
-   - Park maintenance schedule
-   - Traffic signal repair
-   - Library hours update
+### Real Documents Included
+- All municipal documents in the `docs` folder are processed.
 
 ### Running Tests
 ```bash

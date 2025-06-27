@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-06-26T21:08:44.533207",
+  "timestamp": "2025-06-26T23:50:51.583883",
   "total_documents": 32,
   "workflows_executed": {
     "high_priority_alerts": [
@@ -38,11 +38,11 @@
                   "short": false
                 }
               ],
-              "footer": "Processed at 2025-06-26 21:08:44"
+              "footer": "Processed at 2025-06-26 23:50:51"
             }
           ]
         },
-        "timestamp": "2025-06-26T21:08:44.537207"
+        "timestamp": "2025-06-26T23:50:51.588884"
       }
     ],
     "weekly_digest": {
@@ -53,14 +53,14 @@
         "stakeholders@yourcompany.com"
       ],
       "document_count": 19,
-      "timestamp": "2025-06-26T21:08:44.537207"
+      "timestamp": "2025-06-26T23:50:51.589883"
     },
     "low_priority_logging": {
       "status": "success",
       "action": "logged",
       "log_file": "automation_log.json",
       "document_count": 10,
-      "timestamp": "2025-06-26T21:08:44.540208"
+      "timestamp": "2025-06-26T23:50:51.592883"
     }
   }
 }
