@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-06-26T23:50:51.583883",
+  "timestamp": "2025-06-27T13:34:15.293166",
   "total_documents": 32,
   "workflows_executed": {
     "high_priority_alerts": [
@@ -38,29 +38,29 @@
                   "short": false
                 }
               ],
-              "footer": "Processed at 2025-06-26 23:50:51"
+              "footer": "Processed at 2025-06-27 13:34:15"
             }
           ]
         },
-        "timestamp": "2025-06-26T23:50:51.588884"
+        "timestamp": "2025-06-27T13:34:15.296165"
       }
     ],
     "weekly_digest": {
       "status": "success",
       "platform": "email",
-      "subject": "Weekly Cannabis Document Digest - 2025-06-26",
+      "subject": "Weekly Cannabis Document Digest - 2025-06-27",
       "recipients": [
         "stakeholders@yourcompany.com"
       ],
       "document_count": 19,
-      "timestamp": "2025-06-26T23:50:51.589883"
+      "timestamp": "2025-06-27T13:34:15.296165"
     },
     "low_priority_logging": {
       "status": "success",
       "action": "logged",
       "log_file": "automation_log.json",
       "document_count": 10,
-      "timestamp": "2025-06-26T23:50:51.592883"
+      "timestamp": "2025-06-27T13:34:15.299167"
     }
   }
 }

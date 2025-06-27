@@ -340,7 +340,7 @@ async def upload_and_classify_file(file: UploadFile = File(...)):
     
     Supports text files (.txt) and will extract content for classification.
     """
-    if not file.filename.endswith('.txt'):
+    if not file.filename or not file.filename.endswith('.txt'):
         raise HTTPException(status_code=400, detail="Only .txt files are supported")
     
     try:
