@@ -27,7 +27,7 @@ This system implements the exact scoring methodology specified in the cannabis a
 
 ### Technical Features
 - **FastAPI Web Interface**: REST API with interactive documentation
-- **Comprehensive Testing**: 15 realistic sample municipal documents
+- **Comprehensive Testing**: Real municipal documents from the `docs` folder
 - **Export Capabilities**: JSON, text reports, and detailed logs
 - **Methodology Documentation**: Transparent scoring system explanation
 

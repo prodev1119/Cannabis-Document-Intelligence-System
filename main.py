@@ -8,7 +8,7 @@ and executing automation workflows based on priority levels.
 
 This system implements the scoring methodology specified in the test requirements:
 - High value keywords (10 points each)
-- Medium value keywords (5 points each) 
+- Medium value keywords (5 points each)
 - Low value keywords (2 points each)
 - Context modifiers (bonus/penalty points)
 - Date bonuses for recent documents
