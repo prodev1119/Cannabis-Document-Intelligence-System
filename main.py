@@ -8,7 +8,7 @@ and executing automation workflows based on priority levels.
 
 This system implements the scoring methodology specified in the test requirements:
 - High value keywords (10 points each)
-- Medium value keywords (5 points each) 
+- Medium value keywords (5 points each)
 - Low value keywords (2 points each)
 - Context modifiers (bonus/penalty points)
 - Date bonuses for recent documents
@@ -22,8 +22,17 @@ from typing import Dict, List
 
 from cannabis_classifier import CannabisDocumentClassifier, PriorityLevel
 from automation_workflows import AutomationWorkflows
-from sample_documents import extract_all_documents
 
+# Utility to extract all .txt documents from docs folder
+
+def extract_all_documents(folder_path: str = "docs") -> Dict[str, str]:
+    documents = {}
+    for root, _, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith('.txt'):
+                with open(os.path.join(root, file), 'r', encoding='utf-8') as f:
+                    documents[file] = f.read()
+    return documents
 
 class CannabisDocumentIntelligenceSystem:
     def __init__(self):
@@ -253,6 +262,12 @@ def main():
     # Run complete analysis with sample documents
     results = system.run_complete_analysis()
     
+    if results and "files_generated" in results:
+        print("Files generated:")
+        for file in results["files_generated"]:
+            print(f"- {file}")
+    print("\U0001F389 Analysis Complete!")
+    
     # Display methodology
     print("\n📚 Methodology Explanation")
     print("=" * 50)
@@ -263,13 +278,6 @@ def main():
     with open("methodology.txt", 'w') as f:
         f.write(methodology)
     print("✅ Methodology saved to: methodology.txt")
-    
-    print("\n🎉 Analysis Complete!")
-    print("=" * 50)
-    print("Files generated:")
-    for file in results["files_generated"]:
-        print(f"  - {file}")
-    print("  - methodology.txt")
     
     print("\n📊 Summary:")
     total_docs = len(results["classification_results"])

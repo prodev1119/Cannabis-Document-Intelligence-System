@@ -15,18 +15,27 @@ import os
 from datetime import datetime
 from cannabis_classifier import CannabisDocumentClassifier, PriorityLevel
 from automation_workflows import AutomationWorkflows
-from sample_documents import get_sample_documents, save_sample_documents_to_files
 
+# Utility to extract all .txt documents from docs folder
+
+def load_real_documents(folder_path='docs'):
+    documents = {}
+    for root, _, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith('.txt'):
+                with open(os.path.join(root, file), 'r', encoding='utf-8') as f:
+                    documents[file] = f.read()
+    return documents
 
 def test_classifier():
-    """Test the document classifier with sample documents."""
+    """Test the document classifier with real documents."""
     print("🧪 Testing Document Classifier")
     print("=" * 40)
     
     classifier = CannabisDocumentClassifier()
-    documents = get_sample_documents()
+    documents = load_real_documents()
     
-    print(f"Processing {len(documents)} sample documents...")
+    print(f"Processing {len(documents)} real documents...")
     
     results = classifier.process_documents(documents)
     
@@ -167,11 +176,7 @@ def test_file_generation():
     
     classifier = CannabisDocumentClassifier()
     automation = AutomationWorkflows()
-    documents = get_sample_documents()
-    
-    # Generate sample documents
-    save_sample_documents_to_files()
-    print("✅ Sample documents saved to sample_documents/ directory")
+    documents = load_real_documents()
     
     # Process documents
     results = classifier.process_documents(documents)
