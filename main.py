@@ -22,7 +22,7 @@ from typing import Dict, List
 
 from cannabis_classifier import CannabisDocumentClassifier, PriorityLevel
 from automation_workflows import AutomationWorkflows
-from sample_documents import extract_all_documents
+from extract_documents import extract_all_documents
 
 
 class CannabisDocumentIntelligenceSystem:

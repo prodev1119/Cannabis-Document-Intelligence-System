@@ -15,7 +15,6 @@ import os
 from datetime import datetime
 from cannabis_classifier import CannabisDocumentClassifier, PriorityLevel
 from automation_workflows import AutomationWorkflows
-from sample_documents import get_sample_documents, save_sample_documents_to_files
 
 
 def test_classifier():
@@ -24,10 +23,12 @@ def test_classifier():
     print("=" * 40)
     
     classifier = CannabisDocumentClassifier()
-    documents = get_sample_documents()
-    
+    # Use a minimal set of inline test documents for demonstration
+    documents = {
+        "test_high_priority.txt": "CITY COUNCIL MEETING MINUTES\nDate: January 15, 2025\nAGENDA ITEM: CANNABIS RETAIL ORDINANCE APPROVED\nThe council approved the cannabis retail ordinance with a 6-1 vote. The licensing program will open on February 1, 2025, with an application window of 30 days. Merit-based selection will be used for the initial 3 dispensary licenses. Motion passed. Ordinance effective immediately.",
+        "test_irrelevant.txt": "PARKS AND RECREATION DEPARTMENT\nDate: January 15, 2025\nPARK MAINTENANCE SCHEDULE\nThe department has scheduled routine maintenance for all city parks. No cannabis-related activities included."
+    }
     print(f"Processing {len(documents)} sample documents...")
-    
     results = classifier.process_documents(documents)
     
     # Display results by priority
@@ -167,30 +168,25 @@ def test_file_generation():
     
     classifier = CannabisDocumentClassifier()
     automation = AutomationWorkflows()
-    documents = get_sample_documents()
-    
-    # Generate sample documents
-    save_sample_documents_to_files()
-    print("✅ Sample documents saved to sample_documents/ directory")
-    
+    # Use a minimal set of inline test documents for demonstration
+    documents = {
+        "test_high_priority.txt": "CITY COUNCIL MEETING MINUTES\nDate: January 15, 2025\nAGENDA ITEM: CANNABIS RETAIL ORDINANCE APPROVED\nThe council approved the cannabis retail ordinance with a 6-1 vote. The licensing program will open on February 1, 2025, with an application window of 30 days. Merit-based selection will be used for the initial 3 dispensary licenses. Motion passed. Ordinance effective immediately.",
+        "test_irrelevant.txt": "PARKS AND RECREATION DEPARTMENT\nDate: January 15, 2025\nPARK MAINTENANCE SCHEDULE\nThe department has scheduled routine maintenance for all city parks. No cannabis-related activities included."
+    }
     # Process documents
     results = classifier.process_documents(documents)
-    
     # Export results
     classification_file = classifier.export_results(results)
     print(f"✅ Classification results exported to {classification_file}")
-    
     # Generate reports
     summary_report = classifier.generate_summary_report(results)
     with open("test_summary_report.txt", 'w') as f:
         f.write(summary_report)
     print("✅ Summary report saved to test_summary_report.txt")
-    
     automation_report = automation.generate_automation_report(results)
     with open("test_automation_report.txt", 'w') as f:
         f.write(automation_report)
     print("✅ Automation report saved to test_automation_report.txt")
-    
     # Execute automation workflows
     automation_results = automation.process_automation_workflows(results)
     with open("test_automation_results.json", 'w') as f:
@@ -285,13 +281,6 @@ def main():
                 print(f"  ✅ {file}")
             else:
                 print(f"  ❌ {file} (not found)")
-        
-        print(f"\n📂 Sample Documents Directory:")
-        if os.path.exists("sample_documents"):
-            sample_files = os.listdir("sample_documents")
-            print(f"  ✅ sample_documents/ ({len(sample_files)} files)")
-        else:
-            print(f"  ❌ sample_documents/ (not found)")
         
         print(f"\n🚀 System Ready for Production Use!")
         

@@ -15,7 +15,6 @@ import os
 
 from cannabis_classifier import CannabisDocumentClassifier, ClassificationResult, PriorityLevel
 from automation_workflows import AutomationWorkflows
-from sample_documents import get_sample_documents
 
 app = FastAPI(
     title="Cannabis Document Intelligence API",
@@ -185,24 +184,6 @@ async def classify_batch_documents(request: BatchAnalysisRequest):
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Batch classification error: {str(e)}")
-
-
-@app.get("/sample-documents")
-async def get_sample_documents_endpoint():
-    """
-    Get sample municipal documents for testing the classification system.
-    
-    Returns 15 realistic cannabis-related city documents.
-    """
-    try:
-        documents = get_sample_documents()
-        return {
-            "message": "Sample documents retrieved successfully",
-            "document_count": len(documents),
-            "documents": documents
-        }
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error retrieving sample documents: {str(e)}")
 
 
 @app.post("/automation-workflows")
